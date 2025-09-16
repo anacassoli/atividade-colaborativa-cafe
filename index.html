@@ -5,20 +5,254 @@
     <title> Neptunum-Café </title>
 </head>
 <body>
-<main></main>
+<<<<<<< HEAD
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Neptunum-Café</title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Libertinus+Serif+Display&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libertinus+Serif+Display&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
     
-    <div class="content">
-        <p>Café Neptunum </p>
-        <h1>COFFEE</h1>
-        <p>É hora de experimentar um dos melhores cafézes da cidade, único e puro, você só encontra aqui, Coffe Neptunum.</p>
-        <button class="order-now">Entre</button>
-        <H2> Bem-vindos à COFFEE NEPTUNUM</H2>
+    <style>
+        /* Geral e Fundo */
+        body {
+            margin: 0;
+            font-family: 'Nunito', sans-serif;
+        }
+
+        .hero {
+            background-image: url('cafe.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+            width: 100%;
+            position: relative;
+            color: white;
+            text-align: center;
+            display: flex;
+            flex-direction: column; /* Novo: Para o conteúdo ficar em coluna */
+            justify-content: flex-start; /* Novo: Alinha o conteúdo ao topo */
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.4);
+            z-index: 1;
+        }
+
+        /* --- Estilização do cabeçalho com o menu --- */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+            position: relative;
+            z-index: 2;
+            width: 100%; /* Novo: Ocupa toda a largura */
+            box-sizing: border-box; /* Novo: Para o padding não quebrar o layout */
+        }
+
+        .logo h1 {
+            font-size: 24px;
+            font-weight: 600;
+            margin: 0;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 30px;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-weight: 400;
+        }
+
+        /* Estilização do Conteúdo Principal */
+        main {
+            position: relative;
+            z-index: 2;
+            flex-grow: 1; /* Novo: Ocupa o espaço restante */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .content {
+            max-width: 600px;
+            padding: 20px;
+        }
+
+        .content p {
+            font-size: 16px;
+            line-height: 1.5;
+            margin: 0;
+        }
+
+        .content h1 {
+            font-family: 'Libertinus Serif Display', serif;
+            font-size: 150px;
+            line-height: 1;
+            margin: 0;
+        }
         
+        .content h2 {
+            font-size: 24px;
+            margin-top: 40px;
+            font-weight: 500;
+        }
+
+        .order-now {
+            padding: 15px 40px;
+            background-color: #f7a047;
+            border: none;
+            color: white;
+            font-size: 18px;
+            cursor: pointer;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <header>
+            <div class="logo">
+                <h1>Neptunum-Café</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="sobre-nos.html">Sobre nós</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="content">
+                <p>Café Neptunum </p>
+                <h1>COFFEE</h1>
+                <p>É hora de experimentar um dos melhores cafézes da cidade, único e puro, você só encontra aqui, Coffe Neptunum.</p>
+                <button class="order-now">Entre</button>
+                <h2>Bem-vindos à COFFEE NEPTUNUM</h2>
+            </div>
+        </main>
     </div>
-</main>
 </body>
 </html>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=======
+
+    
+     <div class="header">
+
+        <h1>Desfrute de uma nova mistura de estilo de café</h1>
+        <h3>Explore todos os sabores de café conosco. Sempre há uma nova xícara que vale a pena experimentar.</h3>
+
+    </div>
+
+
+
+  <div class="menu">
+        
+    <div class="card">
+         <img src="https://media.istockphoto.com/id/1484464555/pt/foto/sip-savor-and-enjoy-a-perfectly-crafted-cappuccino-with-a-beautiful-twist.jpg?s=612x612&w=0&k=20&c=3xQcrVnGN1VMypxBjWuJZpi79AwShIdEk1ytYDZAbZI=" alt="imagem xicara de café" width="180">
+         <h3>Cappuccino</h3>
+         <p>Café 50% | Leite 50%</p>
+         <p>R$8,50</p>
+         <button>Encomende agora</button>
+    </div>
+
+    <div class="card">
+         <img src="https://www.allrecipes.com/thmb/Pa9Fumfnlk8qU-weROSvTrR9JXA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/8102028-3f0aa81a74514adfb1389b2f4e53e1e9.jpg" alt="imagem chai latte" width="180">
+         <h3>Chai Latte</h3>
+         <p>Café 50% | Leite 50%</p>
+         <p>R$8,50</p>
+         <button>Encomende agora</button>
+    </div>
+
+     <div class="card">
+         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTR4nDpokkCPSTaTO4ybF5cJGKU-oYg4q1utg&s" alt="imagem macchiato" width="180">
+         <h3>Macchiato</h3>
+         <p>Café 50% | Leite 50%</p>
+         <p>R$8,50</p>
+         <button>Encomende agora</button>
+    </div>
+
+     <div class="card">
+         <img src="https://media.istockphoto.com/id/1030882758/pt/foto/espresso-coffee-and-machine.jpg?b=1&s=612x612&w=0&k=20&c=Z3v7pvwP7qzOCtEFvhQg44TW8Hklr0oPZ1Fxe0SgR1w=" alt="imagem expresso" width="180">
+         <h3>Expresso</h3>
+         <p>Café 50% | Leite 50%</p>
+         <p>R$8,50</p>
+         <button>Encomende agora</button>
+    </div>
+
+  </div>
+    
+>>>>>>> 1e1234f5b5b9c940d94b05dd39d3fbae455d8201
+    
+</main>
+</body>
+</html>
+<<<<<<< HEAD
+
+=======
+>>>>>>> 1e1234f5b5b9c940d94b05dd39d3fbae455d8201
