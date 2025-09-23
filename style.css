@@ -102,7 +102,6 @@ body {
 .menu {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
   gap: 20px;
   padding: 40px 20px;
 }
@@ -125,7 +124,6 @@ body {
 
 /*titulo do card*/
 .card h3 {
-  margin-top: 15px;
   color: #3b240c;
 }
 
@@ -149,9 +147,8 @@ body {
 
 /*alinhar os outros cards no meio*/
 .difference {
-  display: flex;
   justify-content: center;
-  flex-wrap: wrap;
+  display: flex;
   gap: 20px;
   padding: 40px 20px;
 }
