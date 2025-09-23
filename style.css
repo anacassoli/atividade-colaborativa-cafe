@@ -1,4 +1,94 @@
 
+/*fonte*/
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #ffffff;
+  line-height: 1.6;
+}
+
+.hero {
+  /*imagem do cafe grão*/
+  background-image: url('https://rehagro.com.br/blog/wp-content/uploads/2019/04/capa-producao-cafe-brasil.jpg');
+  background-size: contain;
+  background-position: center;
+  height: 100vh;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.hero header {
+  display: flex;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo h1 {
+  position: center;
+  font-size: 2.5rem;
+  letter-spacing: 4px; 
+  font-family: "Imperial Script", cursive;
+  font-weight:400;
+  font-style:normal;
+}
+  /*/espaçamento entre as letras*/
+
+/* a barra de icones*/
+
+nav a {
+  text-decoration: none;
+  color: #525252;
+  gap: 5rem;
+
+}
+
+/*cor de fundo da barra de icomnes*/
+nav a:hover {
+  color: #623a28;
+}
+
+
+.content {
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.order-now {
+  background-color: hsl(33, 100%, 66%);
+  /*cor do botao*/
+  color: #454545;
+  /*cor do entre*/
+  /* padding: 1.8rem ; */
+  /*tamanho do botao*/
+  border-radius: 5rem;
+  border: none;
+  font-size: 1rem;
+  width: 5rem;
+  height: 2rem;
+  margin: 0.5rem;
+
+}
+
+.order-now:hover {
+  background-color: #fffdfb;
+  /*botao entre depois que o mouse passa por cima*/
+  text-align: start
+}
 * {
   margin: 0;
   padding: 0;
