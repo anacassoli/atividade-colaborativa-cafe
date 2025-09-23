@@ -188,6 +188,81 @@ body {
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
+
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body, html {
+      height: 100%;
+      font-family: Arial, sans-serif;
+    }
+
+    .fundo {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 100vh;
+      padding: 0 5%;
+      background-image: url("../image/image.png");
+      background-size: cover;
+      background-position: center;
+      position: relative;
+    }
+
+    
+
+    .conteudo-nick {
+      position: relative;
+      color: white;
+      z-index: 1;
+      max-width: 50%;
+    }
+
+    .conteudo-nick h1 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+      line-height: 1.2;
+    }
+
+    .conteudo-nick p {
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+    }
+
+
+    .btn {
+      background-color: #f5c14d;
+      color: #464646;
+      padding: 12px;
+      border: none;
+      border-radius: 50px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background 0.3s ease;
+      width: 8.5rem;
+      height: 2rem;
+      font-size: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .btn:hover {
+      background-color: #ffe9a8;
+    }
+
+    @media (max-width: 768px) {
+      .hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 20px;
+      }
+
+    }
+
 /*style da página de inscrição*/
 * {
   margin: 0;
