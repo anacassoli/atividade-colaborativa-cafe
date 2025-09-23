@@ -1,6 +1,5 @@
-
 /*fonte*/
-@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Story+Script&display=swap');
 
 * {
   margin: 0;
@@ -9,22 +8,21 @@
 }
 
 body {
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: #ffffff;
-  line-height: 1.6;
+
 }
 
 .hero {
   /*imagem do cafe grão*/
-  background-image: url('https://rehagro.com.br/blog/wp-content/uploads/2019/04/capa-producao-cafe-brasil.jpg');
-  background-size: contain;
-  background-position: center;
-  height: 100vh;
+  background-image: url("https://images.pexels.com/photos/942802/pexels-photo-942802.jpeg");
+  /* background-size: contain; */
+  /* background-position: center; */
+  height: 40vh;
   color: #ffffff;
-  display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 2rem;
+  /* padding: 2rem; */
 }
 
 .hero header {
@@ -35,44 +33,54 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  color: whitesmoke;
 }
 
-.logo h1 {
+.logo h3 {
   position: center;
   font-size: 2.5rem;
-  letter-spacing: 4px; 
-  font-family: "Imperial Script", cursive;
-  font-weight:400;
-  font-style:normal;
+  letter-spacing: 4px;
+  font-family: font-family: "Story Script", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
-  /*/espaçamento entre as letras*/
+
+/*/espaçamento entre as letras*/
 
 /* a barra de icones*/
 
-nav a {
+nav a{
+  font-weight: 400;
+  margin: 50px;
   text-decoration: none;
-  color: #525252;
-  gap: 5rem;
-
+  color: #ffffff;
 }
-
-/*cor de fundo da barra de icomnes*/
-nav a:hover {
-  color: #623a28;
-}
-
 
 .content {
   text-align: center;
-  margin-top: auto;
-  margin-bottom: auto;
+  /* margin-top: auto;
+  margin-bottom: auto; */
+}
+
+.cabecalho h1 {
+  padding: 1.5rem;
+  flex: 1;
+  max-width: 550px;
+  color: #ffffff;
+}
+
+.cabecalho h5 {
+  padding: 0.5rem;
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+  color: #ffffff;
 }
 
 .order-now {
   background-color: hsl(33, 100%, 66%);
   /*cor do botao*/
-  color: #454545;
-  /*cor do entre*/
+  color: #ffffff;
+  /*cor do entes*/
   /* padding: 1.8rem ; */
   /*tamanho do botao*/
   border-radius: 5rem;
@@ -80,19 +88,13 @@ nav a:hover {
   font-size: 1rem;
   width: 5rem;
   height: 2rem;
-  margin: 0.5rem;
-
+  margin: 1rem;
 }
 
 .order-now:hover {
-  background-color: #fffdfb;
+  background-color: #543a21;
   /*botao entre depois que o mouse passa por cima*/
-  text-align: start
-}
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  text-align: center;
 }
 
 body {
@@ -108,19 +110,20 @@ body {
   align-items: center;
   padding: 80px 10%;
   gap: 40px;
-  flex-wrap: wrap; 
-}
+  flex-wrap: wrap;
 
+}
 
 .content {
   flex: 1;
   max-width: 550px;
+  color: #4c2c0c;
 }
 
 .content h1 {
   font-size: 3rem;
   font-weight: 700;
-  color: #3b2f2f; 
+  color: #3b2f2f;
   margin-bottom: 20px;
 }
 
@@ -128,11 +131,12 @@ body {
   font-size: 1.1rem;
   color: #555;
   margin-bottom: 30px;
+  color: #4c2c0c;
 }
 
 .btn {
   display: inline-block;
-  background: #f9a826; 
+  background: #a57932;
   color: #fff;
   font-weight: 600;
   padding: 14px 32px;
@@ -144,7 +148,7 @@ body {
 }
 
 .btn:hover {
-  background: #d98918;
+  background: #67410d;
   box-shadow: 0 6px 14px rgba(249, 168, 38, 0.4);
 }
 
@@ -158,7 +162,7 @@ body {
   max-width: 100%;
   height: auto;
   border-radius: 15px;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
 /*STYLE DOS CARDS*/
@@ -180,6 +184,7 @@ body {
 .header {
   text-align: center;
   padding: 50px 20px 20px;
+  color: #4c2c0c;
 }
 
 /*titulo h1*/
@@ -194,6 +199,7 @@ body {
   justify-content: center;
   gap: 20px;
   padding: 40px 20px;
+  color: #4c2c0c;
 }
 
 /*configuração do card*/
@@ -204,7 +210,8 @@ body {
   width: 220px;
   text-align: center;
   border-radius: 10px;
-  box-shadow: 0px 6px 10px rgba(0,0,0,0.05);
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.05);
+
 }
 
 /*imagem dos cards*/
@@ -232,7 +239,7 @@ body {
   border-radius: 20px;
   color: #3b240c;
   font-weight: bold;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 /*alinhar os outros cards no meio*/
@@ -241,6 +248,7 @@ body {
   display: flex;
   gap: 20px;
   padding: 40px 20px;
+  color: #4c2c0c;
 }
 
 /* Container dos cards */
@@ -248,7 +256,7 @@ body {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap:10px;
+  gap: 10px;
 }
 
 /* Cada card individual do 'cards' */
@@ -275,90 +283,65 @@ body {
   border-radius: 20px;
   color: #3b240c;
   font-weight: bold;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-
-* {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    body, html {
-      height: 100%;
-      font-family: Arial, sans-serif;
-    }
-
-    .fundo {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      height: 100vh;
-      padding: 0 5%;
-      background-image: url("../image/image.png");
-      background-size: cover;
-      background-position: center;
-      position: relative;
-    }
-
-    
-
-    .conteudo-nick {
-      position: relative;
-      color: white;
-      z-index: 1;
-      max-width: 50%;
-    }
-
-    .conteudo-nick h1 {
-      font-size: 3rem;
-      margin-bottom: 20px;
-      line-height: 1.2;
-    }
-
-    .conteudo-nick p {
-      font-size: 1.2rem;
-      margin-bottom: 30px;
-    }
+.fundo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 0 5%;
+    background-image: url("https://mail.google.com/mail/u/0/?ui=2&ik=19669e34c2&attid=0.1&permmsgid=msg-f:1844080322479069535&th=19977d486ea7195f&view=fimg&disp=thd&attbid=ANGjdJ-Kl-uqqGM0txwi07Mikptddr-ZHRh9dbyTh7qOiBUVU_9cBWs9-W13COY107ZULETB46vOnEMwFIdKlPASWgB7nX_i3K1Czu65UyS7JBQdAlp0FRjIcZYRdLw&ats=2524608000000&sz=w1837-h972&auditContext=forDisplay");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
 
 
-    .btn {
-      background-color: #f5c14d;
-      color: #464646;
-      padding: 12px;
-      border: none;
-      border-radius: 50px;
-      font-weight: bold;
-      cursor: pointer;
-      transition: background 0.3s ease;
-      width: 8.5rem;
-      height: 2rem;
-      font-size: 1rem;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
+  .conteudo-nick {
+  font-family: "Lora", serif;
+    position: relative;
+    color: white;
+    z-index: 1;
+    max-width: 50%;
+  }
 
-    .btn:hover {
-      background-color: #ffe9a8;
-    }
+  .conteudo-nick h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    line-height: 1.2;
+  }
 
-    @media (max-width: 768px) {
-      .hero {
-        flex-direction: column;
-        text-align: center;
-        padding: 40px 20px;
-      }
+  .conteudo-nick p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
 
-    }
+
+  .btnick {
+    background-color: #c1a568;
+    color: #464646;
+    padding: 12px;
+    border: none;
+    border-radius: 50px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    width: 8.5rem;
+    height: 2rem;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .btn:hover {
+    background-color: #ffe9a8;
+  }
+
 
 /*style da página de inscrição*/
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
 body {
   font-family: 'Playfair Display', serif;
@@ -430,6 +413,10 @@ body {
 
   .subscribe-form button {
     margin-top: 10px;
+  }
+
+  .coffee-cup {
+    display: none;
   }
 }
 
@@ -531,4 +518,3 @@ footer {
     margin: 0 auto 20px auto;
   }
 }
-
