@@ -105,12 +105,12 @@ body {
 }
 
 .container {
-  display: flex;
-  justify-content: space-between;
+  display: flex; /*Deixa os textos com espaçamento*/
+  justify-content: space-between; /*Elemnto vertical*/
   align-items: center;
   padding: 80px 10%;
-  gap: 40px;
-  flex-wrap: wrap;
+  gap: 40px; /*Espaço dos elementos do container*/
+  flex-wrap: wrap; /*quebra de linha*/
 
 }
 
@@ -134,8 +134,8 @@ body {
   color: #4c2c0c;
 }
 
-.btn {
-  display: inline-block;
+.btn { /*estilo do leia mais*/
+  display: inline-block; 
   background: #a57932;
   color: #fff;
   font-weight: 600;
@@ -150,7 +150,7 @@ body {
 .btn:hover {
   background: #67410d;
   box-shadow: 0 6px 14px rgba(249, 168, 38, 0.4);
-}
+} /*Estilo quando o mouse passa no botao*/
 
 /* Imagem */
 .image {
@@ -159,9 +159,9 @@ body {
 }
 
 .image img {
-  max-width: 100%;
+  max-width: 100%; /*não ultrapassa a largura do container.*/
   height: auto;
-  border-radius: 15px;
+  border-radius: 15px; /*bordas arredondadas. */
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
