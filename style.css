@@ -285,7 +285,7 @@ body {
   font-weight: bold;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
-
+/*background*/
 .fundo {
     display: flex;
     align-items: center;
@@ -318,7 +318,7 @@ body {
     margin-bottom: 30px;
   }
 
-
+/*botão*/
   .btnick {
     background-color: #c1a568;
     color: #464646;
